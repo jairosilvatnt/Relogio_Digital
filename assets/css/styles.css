@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2? family= AR+One+Sans:wght@400;600 & family= Sora:wght@200;400;600 & display=swap' );
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'AR One Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #c9fa07f6, #05a260ea );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relogio {
+  height: 250px;
+  width: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+  background: transparent;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, .4);
+}
+
+.relogio div {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(5, 5, 5, .9);
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(8, 8, 8, 0.7);
+  border-radius: 7px;
+  letter-spacing: 5px;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.relogio span.tempo {
+  font-size: 15px;
+}
